@@ -1,0 +1,26 @@
+AI-smile-detection
+contributions welcome HitCount
+This is an OpenCV application for face, eyes, smile detection. It uses haarcascade provided by OpenCV
+___________________________________________________________________________________________________________________________________________________________________________________
+
+Requirements :
+The PC should have a working Webcam(mainwebcam 0, other cams 1 or further numbers)
+Must allow third party connection with WebCam
+___________________________________________________________________________________________________________________________________________________________________________________
+
+Dependencies :
+Python
+Opencv-Python
+Download the required haars from here.
+cx_freeze(if you want to run setup.py for making a windows binary(.exe) file).
+___________________________________________________________________________________________________________________________________________________________________________________
+
+Usage:
+After successful installation of opencv-python and downloading the haars, run the script and change in the haar name in cv2.CascadeClassifier in the program p.py
+___________________________________________________________________________________________________________________________________________________________________________________
+Windows Binary :
+The script p.py uses cv2 module make sure to install it.
+Then open cmd in the specified folder, and run the commands below :
+___________________________________________________________________________________________________________________________________________________________________________________
+pip install opencv
+___________________________________________________________________________________________________________________________________________________________________________________
